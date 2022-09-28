@@ -74,9 +74,8 @@
         transform: translateX(-35px);
     }
     #description-el{
-        width: 320px;
         display: block;
-        margin: 30px auto;
+        margin: 30px 30px;
         letter-spacing: 2px;
     }
     #description-el h1, h3{
