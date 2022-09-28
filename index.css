@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1200px){
     *{
         margin: 0;
         padding: 0;
@@ -173,7 +173,7 @@
     }
 }
 
-@media only screen and (min-width: 1001px){
+@media only screen and (min-width: 1201px){
 *{
     margin: 0;
     padding: 0;
