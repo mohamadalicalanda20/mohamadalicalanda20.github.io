@@ -1,4 +1,4 @@
-alert("This site is not responsive. Please use desktop.");
+alert("This site is not responsive in mobile view, which causes some features to be hidden. To avoid this issue, please use the desktop instead. Thank you!");
 
 // for api count
 function cb(response) {
