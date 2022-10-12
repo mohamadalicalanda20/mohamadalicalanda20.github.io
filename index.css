@@ -63,6 +63,7 @@
     }
     #design-el{
         opacity: 10%;
+        visibility: hidden;
     }
     #design1-el{
         position: absolute;
