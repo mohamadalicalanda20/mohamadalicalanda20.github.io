@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/bfccbc55bd.js" crossorigin="anonymous"></script>
-    <title>Home</title>
+    <script async src="https://api.countapi.xyz/hit/mohamadalicalanda20.github.io/412fcc6c-e05f-4e10-8b6c-aa618eed24f6?callback=cb"></script>
+    <title>MyPortfolio</title>
 </head>
 <body>
     <nav id="nav-wrapper">
@@ -14,39 +15,99 @@
             <div id="circle-el"></div>
             <h1 id="name-el">ALI</h1>
         </div>
-        <div id="right-text">
-            <ul id="option-el">
-                <li id="op-home" class="op"><u> HOME</u></li>
-                <li class="op">PROJECT</li>
-                <li class="op">SKILLS</li>
-                <li class="op">SERVICES</li>
-            </ul>
+        <div id="option-el">
+            <a href="#home" id="op-home" class="op" onclick="home()">HOME</a>
+            <a href="#project" id="op-project" class="op" onclick="project()">PROJECT</a>
+            <a href="#skills" id="op-skills" class="op" onclick="skills()">SKILLS</a>
+            <a href="#services" id="op-services" class="op" onclick="services()">SERVICES</a>
         </div>
         <i id="bar-el" class="fa-solid fa-bars" onclick="toggleMenu()"></i>
     </nav>
-    <div id="content-el">
-        <div id="design-el">
-            <div id="design1-el"></div>
-            <div id="design2-el"></div>
-            <div id="design3-el"></div>
-            <div id="design4-el"></div>
-        </div>
-        <div id="image-el">
-            <img id="img" src="ali.jpg" alt="Ali posting in front of the camera">
-        </div>
-        <div id="description-el">
-            <h1>Hi, I'm <span id="name-em">Ali</span></h1>
-            <h3 id="student-des">Computer Science Student</h3>
-            <p id="des-el">I am concentrating on software engineering and web development and am currently studying at 
-                Cavite State University - Imus campus.</p>
-            <button id="btn-cv">GO TO MY CV</button>
-            <div id="socmed-el">
-                <i id="fb-el" class="fa-brands fa-facebook-f"></i>
-                <i id="twitter-el" class="fa-brands fa-twitter"></i>
-                <i id="email-el" class="fa-solid fa-envelope"></i>
+    <div id="home"> 
+        <div id="content-el">
+            <div id="design-el">
+                <div id="design1-el"></div>
+                <div id="design2-el"></div>
+                <div id="design3-el"></div>
+                <div id="design4-el"></div>
+            </div>
+            <div class="frame-el">
+                <div id="image-el">
+                    <img id="img" src="ali.jpg" alt="Ali posting in front of the camera">
+                </div>
+            </div>    
+            <div id="description-el">
+                <h1>Hi, I'm <span id="name-em">Ali</span></h1>
+                <h3 id="student-des">Computer Science Student</h3>
+                <p id="des-el">I am concentrating on software engineering and web development and am currently studying at 
+                    Cavite State University - Imus campus.</p>
+                <button id="btn-cv">GO TO MY CV</button>
+                <div id="socmed-el">
+                    <a href="https://web.facebook.com/mohamadalicalanda" target="_blank"> <i id="fb-el" class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/bucketofgoals" target="_blank"><i id="twitter-el" class="fa-brands fa-twitter"></i></a>
+                    <a href=""></a> <i id="email-el" class="fa-solid fa-envelope"></i>
+                    <h2 id="visit-el"><span id="visits">0</span> views</h2>
+                </div> 
+
             </div>
         </div>
     </div>
+    <div id="project">
+        <div class="project-card">
+            <div class="web-project">
+                <div class="title-project">Web project</div>
+                <ul>
+                    <li>Hometown Page</li>
+                    <li>Rock, Paper and Scissor</li>
+                    <li>Calculator</li>
+                </ul>
+            </div>
+            <div class="software-project">
+                <div class="title-project">Software project</div>
+                <ul>
+                    <li>Payroll Management System</li>
+                    <li>Calculator</li>
+                    <li>Login form</li>
+                    <li>CRUD form</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <div id="skills-card">
+            <div id="skills-left-card">
+                <h1>Computer language</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>
+            <div id="skills-right-card">
+                        <div>
+                            <img class="lang-el" id="java-img" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="java-logo">
+                            <div id="jav-el">Java - 40%</div>
+                        </div>
+                        <div>
+                            <img class="lang-el" id="js-img" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="js-logo">
+                            <div id="javascript">JavaScript - 30%</div>
+                        </div>
+                        
+                        <div>
+                            <img class="lang-el" id="html-img" src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="html-logo">
+                            <div id="html">HyperText Markup Language - 70%</div>
+                        </div>
+                        <div>
+                            <img class="lang-el" id="css-img" src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="css-logo">
+                            <div id="css">Cascading Style Sheets - 45%</div>
+                        </div>
+                        <div>
+                            <img class="lang-el" id="sql-img" src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" alt="sql-logo">
+                            <div id="sql">Structured Query Language - 40%</div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="services">
+        <h1>SERVICES</h1>
+    </div> -->
     <script src="index.js"></script>
 </body>
 </html>
