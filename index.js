@@ -1,3 +1,5 @@
+alert("This site is not responsive. Please use desktop.");
+
 // for api count
 function cb(response) {
     document.getElementById('visits').innerText = response.value;
